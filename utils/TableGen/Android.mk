@@ -56,7 +56,7 @@ LOCAL_STATIC_LIBRARIES := \
   libLLVM50TableGen \
   libLLVM50Support
 
-LOCAL_LDLIBS += -lm
+LOCAL_LDLIBS += -lm -lncurses
 LOCAL_LDLIBS_windows := -limagehlp -lpsapi
 LOCAL_LDLIBS_darwin := -lpthread -ldl
 LOCAL_LDLIBS_linux := -lpthread -ldl
